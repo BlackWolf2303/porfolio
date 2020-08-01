@@ -1,0 +1,31 @@
+.work {
+  &-desc-wrapper {
+    max-width: 630px;
+    margin: auto;
+    text-align: justify;
+    .skill-item {
+      padding: 30px 0;
+    }
+  }
+}
+.lang {
+  &-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 70px;
+    height: 110px;
+    margin: 10px auto;
+    .desc {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lang {
+    &-item {
+      height: 100px;
+    }
+  }
+}

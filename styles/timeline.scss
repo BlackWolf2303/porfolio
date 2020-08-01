@@ -1,0 +1,106 @@
+.timeline {
+  max-width: 1000px;
+  margin: 50px auto;
+  position: relative;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      position: relative;
+      width: 50%;
+      padding: 20px 40px;
+      box-sizing: border-box;
+      margin: 15px 0;
+      &:nth-child(odd) {
+        float: left;
+        text-align: right;
+        clear: both;
+        .time {
+          position: absolute;
+          top: 15px;
+          right: -146px;
+          margin: 0;
+          padding: 5px 16px;
+          border-radius: 18px;
+          border: 1px solid;
+          width: 105px;
+          text-align: center;
+        }
+        &:before {
+          content: '';
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          background: darkorange;
+          border-radius: 99px;
+          right: -6px;
+          top: 26px;
+          box-shadow: 0 0 5px 3px $shadow-color;
+        }
+      }
+      &:nth-child(even) {
+        float: right;
+        text-align: left;
+        clear: both;
+        .time {
+          position: absolute;
+          top: 15px;
+          left: -146px;
+          margin: 0;
+          padding: 5px 16px;
+          border-radius: 18px;
+          border: 1px solid;
+          width: 105px;
+          text-align: center;
+        }
+        &:before {
+          content: '';
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          background: darkorange;
+          border-radius: 99px;
+          left: -4px;
+          top: 26px;
+          box-shadow: 0 0 5px 3px $shadow-color;
+        }
+      }
+    }
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: $text-color;
+  }
+  .time h6 {
+    margin: 0;
+    padding: 0;
+  }
+  .spotlight {
+    color: orangered;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .timeline {
+    ul li {
+      &:nth-child(odd) {
+        padding: 20px 15px 20px 0;
+        .time {
+          right: -121px;
+        }
+      }
+      &:nth-child(even) {
+        padding: 20px 0 20px 15px;
+        .time {
+          left: -121px;
+        }
+      }
+    }
+  }
+}

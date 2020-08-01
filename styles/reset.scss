@@ -1,0 +1,37 @@
+body {
+  font-family: muli;
+  font-size: 14px;
+  color: $text-color;
+}
+h1 {
+  font-size: 2rem;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
+a {
+  color: $link-color;
+  &:hover {
+    color: $hover-color;
+    text-decoration: none;
+  }
+}
+p {
+  margin: 0;
+}
+i.fab {
+  // color: white;
+  color: $text-color;
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+.page {
+  display: flex;
+  min-height: 100vh;
+}
+
