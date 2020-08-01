@@ -19,19 +19,19 @@ class Hamberger extends Component {
       window.addEventListener("scroll", function(e) { 
         let scrollTop = window.scrollY;
         switch(true) {
-          case (scrollTop > lastScrollTop):
-            console.log('downnnnnnnnnn');
+          case (scrollTop >70):
+            console.log('100 dowwwwwww');
             intro.classList.add('sub-intro');
             break;
 
-          case(scrollTop < lastScrollTop && scrollTop >10):
-            console.log('uuuppppppp');
-            break;
-
-          case(scrollTop <= 10):
-            console.log('Toppppp');
+          case(scrollTop <=70):
+            console.log('100 uppppp');
             intro.classList.remove('sub-intro');
             break;
+
+          // case(scrollTop <= 100):
+          //   intro.classList.remove('sub-intro');
+          //   break;
           default:
             return true;
         }
