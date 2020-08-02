@@ -1,0 +1,23 @@
+#photos {
+
+}
+.slick {
+  &-slider {
+    max-width: 90%;
+    margin: auto;
+    padding: 30px 0;
+  }
+  &-arrow {
+    &:before {
+      color: orangered;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .slick {
+    &-slider {
+      max-width: 90%;
+    }
+  }
+}

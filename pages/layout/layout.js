@@ -31,8 +31,8 @@ class Layout extends Component {
     return ( 
       <section className="page row no-gutters">
       <Navbar isActive = {isActive} classArr="col-3 col-md-2 col-lg-2 col-xl-1"/>
-      <div className="col-3 col-md-2 col-lg-2 col-xl-1 sidebar-spacing"></div>
-      <div id={id} className={"col-9 col-md-10 col-lg-10 col-xl-11 main-content" + activeClass}>
+      <div className="col col-sm-2 col-md-2 col-lg-2 col-xl-1 sidebar-spacing"></div>
+      <div id={id} className={"col col-sm-10 col-md-10 col-lg-10 col-xl-11 main-content" + activeClass}>
         <Hamberger isActive = {isActive} isToggle = {this.isToggle}/>
         {children}
         <Footer />

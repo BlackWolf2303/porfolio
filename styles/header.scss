@@ -120,6 +120,11 @@
     width: calc(100% - 16.6666%);
   }
 }
+@media screen and (max-width: 768px) {
+  .top-bar {
+    width: calc(100% - 16.6666%);
+  }
+}
 @media screen and (max-width: 425px) {
   .top-bar {
     display: block;

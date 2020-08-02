@@ -1,57 +1,101 @@
+import React from "react";
+import Slider from "react-slick";
+
 import Layout from "./layout/layout";
+
+const settings = {
+  dots: true,
+  arrows:true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  responsive: [
+    // {
+    //   breakpoint: 1024,
+    //   settings: {
+    //     slidesToShow: 2,
+    //     slidesToScroll: 2,
+    //     infinite: true,
+    //     dots: true
+    //   }
+    // },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: true,
+        dots: false,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+};
 
 const Photos = () => (
   <Layout id="photos">
     <section className="container inner">
       <h1 className="page-title">Photos</h1>
-      <p>make yourself better 1% everyday</p>
+      <p className="subtitle">"The moments of IT life,<br/> to make myself better 1% each day."</p>
       <div className="row">
-        <div className="col-md-4">
-          <figure>
-            <img className="img-fluid" src="/static/IMG_E3103.jpg" alt=""></img>
-          </figure>
-        </div>
-        <div className="col-md-4">
-          {/* <figure>
-            <img className="img-fluid" src="/static/big-o.jpg" alt=""></img>
-          </figure> */}
-          <figure>
-            <img className="img-fluid" src="/static/IMG_E3103.jpg" alt=""></img>
-          </figure>
-        </div>
-        <div className="col-md-4">
-          <figure>
-            <img className="img-fluid" src="/static/IMG_E3103.jpg" alt=""></img>
-          </figure>
-        </div>
-        <div className="col-md-4">
-          <figure>
-            <img className="img-fluid" src="/static/IMG_E3103.jpg" alt=""></img>
-          </figure>
-        </div>
-        <div className="col-md-4">
-          <figure>
-            <img className="img-fluid" src="/static/IMG_E3103.jpg" alt=""></img>
-          </figure>
-        </div>
-        <div className="col-md-4">
-          <figure>
-            <img className="img-fluid" src="/static/IMG_E3103.jpg" alt=""></img>
-          </figure>
-        </div>
-        <div className="col-md-4">
-          <figure>
-            <img className="img-fluid" src="/static/IMG_E3103.jpg" alt=""></img>
-          </figure>
-        </div>
-        <div className="col-md-4">
-          <figure>
-            <img className="img-fluid" src="/static/IMG_E3103.jpg" alt=""></img>
-          </figure>
+        <div className="col">
+          <Slider {...settings}>
+          <div className="card">
+            <figure>
+              <img className="card-img-top img-fluid" src={`/static/project/yitechnology.jpg`} alt="Card image cap"/>
+            </figure>
+            <div className="card-body">
+              <h6>TItle</h6>
+              <p className="card-text">degfdgdsf</p>
+            </div>
+          </div>
+          <div className="card">
+            <figure>
+              <img className="card-img-top img-fluid" src={`/static/project/yitechnology.jpg`} alt="Card image cap"/>
+            </figure>
+            <div className="card-body">
+              <h6>TItle</h6>
+              <p className="card-text">degfdgdsf</p>
+            </div>
+          </div> 
+          <div className="card">
+            <figure>
+              <img className="card-img-top img-fluid" src={`/static/project/yitechnology.jpg`} alt="Card image cap"/>
+            </figure>
+            <div className="card-body">
+              <h6>TItle</h6>
+              <p className="card-text">degfdgdsf</p>
+            </div>
+          </div> 
+          <div className="card">
+            <figure>
+              <img className="card-img-top img-fluid" src={`/static/project/yitechnology.jpg`} alt="Card image cap"/>
+            </figure>
+            <div className="card-body">
+              <h6>TItle</h6>
+              <p className="card-text">degfdgdsf</p>
+            </div>
+          </div> 
+          <div className="card">
+            <figure>
+              <img className="card-img-top img-fluid" src={`/static/project/yitechnology.jpg`} alt="Card image cap"/>
+            </figure>
+            <div className="card-body">
+              <h6>TItle</h6>
+              <p className="card-text">degfdgdsf</p>
+            </div>
+          </div> 
+        </Slider>
         </div>
       </div>
-
-
     </section>
   </Layout>
 );
