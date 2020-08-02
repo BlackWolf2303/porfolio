@@ -11,7 +11,7 @@ const PorforlioItem = (props) => {
           </figure>
           <div className="card-body">
             <h6>{project}</h6>
-            <p className="card-text">{detail}</p>
+            {/* <p className="card-text">{detail}</p> */}
             <p className="card-text">Responsibility: {responsibility}</p>
           </div>
         </div> 
