@@ -2,6 +2,9 @@ import React from "react";
 import Slider from "react-slick";
 
 import Layout from "./layout/layout";
+import PhotoSlide from "../components/PhotoSlide";
+
+import {dataPhotoSlide} from "../data/DataTimeLine";
 
 const settings = {
   dots: true,
@@ -48,51 +51,11 @@ const Photos = () => (
       <div className="row">
         <div className="col">
           <Slider {...settings}>
-          <div className="card">
-            <figure>
-              <img className="card-img-top img-fluid" src={`/static/project/yitechnology.jpg`} alt="Card image cap"/>
-            </figure>
-            <div className="card-body">
-              <h6>TItle</h6>
-              <p className="card-text">degfdgdsf</p>
-            </div>
-          </div>
-          <div className="card">
-            <figure>
-              <img className="card-img-top img-fluid" src={`/static/project/yitechnology.jpg`} alt="Card image cap"/>
-            </figure>
-            <div className="card-body">
-              <h6>TItle</h6>
-              <p className="card-text">degfdgdsf</p>
-            </div>
-          </div> 
-          <div className="card">
-            <figure>
-              <img className="card-img-top img-fluid" src={`/static/project/yitechnology.jpg`} alt="Card image cap"/>
-            </figure>
-            <div className="card-body">
-              <h6>TItle</h6>
-              <p className="card-text">degfdgdsf</p>
-            </div>
-          </div> 
-          <div className="card">
-            <figure>
-              <img className="card-img-top img-fluid" src={`/static/project/yitechnology.jpg`} alt="Card image cap"/>
-            </figure>
-            <div className="card-body">
-              <h6>TItle</h6>
-              <p className="card-text">degfdgdsf</p>
-            </div>
-          </div> 
-          <div className="card">
-            <figure>
-              <img className="card-img-top img-fluid" src={`/static/project/yitechnology.jpg`} alt="Card image cap"/>
-            </figure>
-            <div className="card-body">
-              <h6>TItle</h6>
-              <p className="card-text">degfdgdsf</p>
-            </div>
-          </div> 
+          {
+            dataPhotoSlide.length>0 && dataPhotoSlide.map((item,idx) => {
+              return <PhotoSlide caption={item.caption} img={item.img} detail={item.detail} key={idx}/>
+            })
+          }
         </Slider>
         </div>
       </div>

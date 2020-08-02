@@ -246,3 +246,66 @@ export const dataPorforlioItem = [
   },
 
 ]
+
+export const dataPhotoSlide = [
+  {
+    caption: 'Working at IT Consultis 2020',
+    img: 'itc3.jpg',
+    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+  },
+  {
+    caption: 'Working at IT Consultis 2019',
+    img: 'itc2.jpg',
+    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+  },
+  {
+    caption: 'Working at IT Consultis 2018',
+    img: 'itc1.jpg',
+    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+  },
+  {
+    caption: 'Saigon code tour 2019',
+    img: 'code-tour1.jpg',
+    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+  },
+  {
+    caption: 'Saigon code tour 2019',
+    img: 'code-tour2.jpg',
+    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+  },
+  {
+    caption: 'Apkathon 2017',
+    img: 'apkathon.jpg',
+    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+  },
+  {
+    caption: '2359 Hutech Camp 2017',
+    img: '2359hutechcamp.jpg',
+    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+  },
+  {
+    caption: 'Optimize React application in real world 2017',
+    img: 'shopback.jpg',
+    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+  },
+  {
+    caption: 'Big-O Green course: Elementary Algoriths 2018',
+    img: 'bigogreen.jpg',
+    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+  },
+  {
+    caption: 'Big-O Green course: Elementary Algoriths 2018',
+    img: 'bigogreen2.jpg',
+    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+  },
+  {
+    caption: 'Free Code Camp 2018',
+    img: 'free-code-camp-meetup.jpg',
+    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+  },
+  {
+    caption: 'Graduation ceremony',
+    img: 'graduation1.jpg',
+    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+  }
+]

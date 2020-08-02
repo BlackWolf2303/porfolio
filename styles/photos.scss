@@ -1,5 +1,11 @@
 #photos {
-
+  .card {
+    padding: 15px;
+  }
+  figure {
+    border: 1px solid #464646;
+    padding: 2px;
+  }
 }
 .slick {
   &-slider {
