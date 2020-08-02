@@ -72,11 +72,11 @@
 }
 
 @media screen and (max-width: 425px) {
-  // #about {
-  //   .inner {
-  //     min-height: 90vh;
-  //   }
-  // }
+  #about {
+    >section {
+      min-height: 630px;
+    }
+  }
   .intro {
     &-myself {
       top: 53%;
