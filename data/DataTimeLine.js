@@ -144,7 +144,7 @@ export const dataPorforlioItem = [
     project: 'Korean Air',
     img: 'koreanair.jpg',
     detail: 'edsgefewanthrtjht etergb g erybgsertger',
-    responsibility: 'maintenance project: html, css, javascript, ReactJs'
+    responsibility: 'html, css, javascript, ReactJs (maintenance project)'
   },
   {
     project: 'Ogilvy OMS',
@@ -181,7 +181,7 @@ export const dataPorforlioItem = [
     project: 'Pierre Et Vacances - Tonino Lamborghini Resort Landing page',
     img: 'pv.jpg',
     detail: 'edsgefewanthrtjht etergb g erybgsertger',
-    responsibility: 'maintenance project: Html, css, javascript, ReactJs'
+    responsibility: 'Html, css, javascript, ReactJs (maintenance project)'
   },
   {
     project: 'Monbento',
@@ -217,13 +217,13 @@ export const dataPorforlioItem = [
     project: 'Faguowenhua',
     img: 'faguowenhua.jpg',
     detail: 'edsgefewanthrtjht etergb g erybgsertger',
-    responsibility: 'maintenance project: Html, css, javascript, ReactJs'
+    responsibility: 'Html, css, javascript, ReactJs (maintenance project)'
   },
   {
     project: 'Ehl',
     img: 'ehl.jpg',
     detail: 'edsgefewanthrtjht etergb g erybgsertger',
-    responsibility: 'maintenance project: Html, css, javascript, ReactJs'
+    responsibility: 'Html, css, javascript, ReactJs (maintenance project)'
   },
   {
     project: 'Doucea',
