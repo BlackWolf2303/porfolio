@@ -251,61 +251,61 @@ export const dataPhotoSlide = [
   {
     caption: 'Working at IT Consultis 2020',
     img: 'itc3.jpg',
-    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+    detail: 'even the COVID-19 is impacting the world, we are still working through the pandemic time and have a fun time.'
   },
   {
     caption: 'Working at IT Consultis 2019',
     img: 'itc2.jpg',
-    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+    detail: 'ITC people celebrated my birthday.'
   },
   {
     caption: 'Working at IT Consultis 2018',
     img: 'itc1.jpg',
-    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+    detail: 'Enjoyed the multicultural team together, with so nice colleagues from many countries.'
   },
   {
     caption: 'Saigon code tour 2019',
     img: 'code-tour1.jpg',
-    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+    detail: 'Our team who are classmates as well, joining the competition together.'
   },
   {
     caption: 'Saigon code tour 2019',
     img: 'code-tour2.jpg',
-    detail: 'edsgefewanthrtjht etergb g erybgsertger'
-  },
-  {
-    caption: 'Apkathon 2017',
-    img: 'apkathon.jpg',
-    detail: 'edsgefewanthrtjht etergb g erybgsertger'
-  },
-  {
-    caption: '2359 Hutech Camp 2017',
-    img: '2359hutechcamp.jpg',
-    detail: 'edsgefewanthrtjht etergb g erybgsertger'
-  },
-  {
-    caption: 'Optimize React application in real world 2017',
-    img: 'shopback.jpg',
-    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+    detail: 'Organized by VNG, this is a coding competition, where programmers of all levels put their skills to the test. Competitors work their way through a series of online algorithmic puzzles to earn a spot at the final round.'
   },
   {
     caption: 'Big-O Green course: Elementary Algoriths 2018',
     img: 'bigogreen.jpg',
-    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+    detail: 'My class: Big-O Green-06.'
   },
   {
     caption: 'Big-O Green course: Elementary Algoriths 2018',
     img: 'bigogreen2.jpg',
-    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+    detail: 'A course Introduction to Programming and Problem-Solving from Big-O center - founded by Mr. Pham Nguyen Son Tung.'
   },
   {
-    caption: 'Free Code Camp 2018',
+    caption: 'Apkathon 2017',
+    img: 'apkathon.jpg',
+    detail: 'Organized by my school - Aptech HCM, crazy code overnight for nothing, but very fun and creative.'
+  },
+  {
+    caption: '2359 Hutech Camp 2017',
+    img: '2359hutechcamp.jpg',
+    detail: 'Organized by 2359 Media Vietnam, the first time I\'m using React & Hapi.js to create simple tasks'
+  },
+  {
+    caption: 'Event: Optimize React application in real world 2017',
+    img: 'shopback.jpg',
+    detail: 'Organized by Shopback, an event where the developers in Saigon going to share, collect and update knowledge.'
+  },
+  {
+    caption: 'Event: Free Code Camp Meetup 2017',
     img: 'free-code-camp-meetup.jpg',
-    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+    detail: 'sharing knowledge and learning togerther.'
   },
   {
     caption: 'Graduation ceremony',
     img: 'graduation1.jpg',
-    detail: 'edsgefewanthrtjht etergb g erybgsertger'
+    detail: '"Difficult roads lead to beautiful destinations."'
   }
 ]
