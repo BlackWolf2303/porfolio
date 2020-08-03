@@ -27,7 +27,7 @@ class Navbar extends Component {
         {/* <div className="avatar">
           <img
           className="avatar-img"
-            src="/static/avatar4.jpg"
+            src="/static/avatar.jpg"
             alt="Avatar"
           />
           <div className="name">Hai, Ho Thanh</div>
