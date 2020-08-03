@@ -47,7 +47,7 @@ class Navbar extends Component {
           <nav className="social">
             <ul className="icon-wrapper">
               <li className="icon github">
-                <a href="https://github.com/BlackWolf2303" target="_blank"
+                <a href="https://github.com/BlackWolf2303/" target="_blank"
                   ><i className="icon-github"></i
                 ></a>
               </li>
@@ -57,7 +57,7 @@ class Navbar extends Component {
                 ></a>
               </li>
               <li className="icon facebook">
-                <a href="https://www.facebook.com/SteveJobsManInTheMachine/" target="_blank"
+                <a href="https://www.facebook.com/thanhhai233/" target="_blank"
                   ><i className="icon-facebook"></i
                 ></a>
               </li>
