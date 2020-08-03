@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 import Layout from './layout/layout'
 
 const Index = () => (
@@ -30,6 +30,9 @@ const Index = () => (
                   <p>I am just a normal IT guy, who believe success is achieved by ordinary people with extraordinary determination.</p>
                 </div>
             </div>
+            <Link href="/work">
+              <button className="continue-button" >Continue to my Work</button>
+            </Link>
           </div>
         {/*<h1>Để giỏi một việc gì đó trong đời</h1>
         <p>

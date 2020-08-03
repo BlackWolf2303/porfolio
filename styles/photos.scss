@@ -4,7 +4,6 @@
   }
   figure {
     border: 1px solid #464646;
-    padding: 2px;
   }
 }
 .slick {
@@ -14,16 +13,48 @@
     padding: 30px 0;
   }
   &-arrow {
+    top: 40%;
     &:before {
       color: orangered;
     }
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .slick {
+    &-arrow {
+      top: 34%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .slick {
+    &-arrow {
+      top: 31%;
+    }
+  }
+}
 @media screen and (max-width: 425px) {
   .slick {
     &-slider {
       max-width: 90%;
+    }
+    &-arrow {
+      top: 36%;
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .slick {
+    &-arrow {
+      top: 33%;
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .slick {
+    &-arrow {
+      top: 31%;
     }
   }
 }

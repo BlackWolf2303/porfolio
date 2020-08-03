@@ -19,7 +19,13 @@
 .inner {
   padding-top: 150px;
 }
+.continue-button {
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+  border: 1px solid;
 
+}
 @media screen and (max-width: 425px) {
   body {
     font-size: 13px;

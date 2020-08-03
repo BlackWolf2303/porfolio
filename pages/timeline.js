@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from "./layout/layout";
 import TimelineItem from "../components/TimelineItem";
 import {dataTimeLine} from "../data/DataTimeLine";
@@ -17,6 +18,9 @@ const Timeline = () => {
             <div style={{clear:'both'}}></div>
           </ul>
         </div>
+          <Link href="/porfolio">
+            <button className="continue-button" >Continue to my Porfolio</button>
+          </Link>
       </section>
     </Layout>
   );

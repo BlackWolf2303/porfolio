@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import Link from 'next/link';
 
 import Layout from "./layout/layout";
 import PhotoSlide from "../components/PhotoSlide";
@@ -7,12 +8,14 @@ import PhotoSlide from "../components/PhotoSlide";
 import {dataPhotoSlide} from "../data/DataTimeLine";
 
 const settings = {
-  dots: true,
+  dots: false,
   arrows:true,
   infinite: true,
   speed: 500,
   slidesToShow: 2,
   slidesToScroll: 2,
+  autoplay: true,
+  autoplaySpeed: 2500,
   responsive: [
     // {
     //   breakpoint: 1024,
@@ -59,6 +62,9 @@ const Photos = () => (
         </Slider>
         </div>
       </div>
+      <Link href="/contact">
+        <button className="continue-button" >Continue to my Contact</button>
+      </Link>
     </section>
   </Layout>
 );

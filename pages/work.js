@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from "./layout/layout";
 import WorkItem from "../components/WorkItem";
 import {dataWorkItem} from "../data/DataTimeLine";
@@ -31,6 +32,9 @@ const Work = () => {
               <p>English and Vietnamese</p>
             </div>
           </div>
+          <Link href="/timeline">
+            <button className="continue-button" >Continue to my Timeline</button>
+          </Link>
         </div>
       </section>
     </Layout>

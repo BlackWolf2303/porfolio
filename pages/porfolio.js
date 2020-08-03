@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from "./layout/layout";
 import PorforlioItem from "../components/PorforlioItem";
 
@@ -17,6 +18,9 @@ const Porfolio = () => {
             })
           }
         </div>
+        <Link href="/photos">
+          <button className="continue-button" >Continue to my Photos</button>
+        </Link>
       </section>
     </Layout>
   );
