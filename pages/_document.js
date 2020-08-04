@@ -5,11 +5,6 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-            <script dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-174494758-1');`}} />
-
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="thumbnail" content="/static/avatar.jpg" />
           <meta name="description" content="Hi, I'm Hai! I'm a front end developer based in Saigon, VN. Have been programming for 2 years, I'm now looking for a new Front End developer opportunity at HCM city. " />
