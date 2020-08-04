@@ -133,7 +133,7 @@ export const dataTimeLine = [
   }
 ]
 
-export const dataPorforlioItem = [
+export const dataPortfolioItem = [
   {
     project: 'Yi Technology',
     img: 'yitechnology.jpg',

@@ -14,7 +14,7 @@ class Navbar extends Component {
       {title:'About me',imgUrl:'dark/profile.png', href:'/'},
       {title:'Work',imgUrl:'dark/work.png', href:'/work'},
       {title:'Timeline',imgUrl:'dark/timeline.png', href:'/timeline'},
-      {title:'Porfolio',imgUrl:'dark/portfolio.png', href:'/porfolio'},
+      {title:'Portfolio',imgUrl:'dark/portfolio.png', href:'/portfolio'},
       {title:'Photos',icon:'icon-camera', href:'/photos'},
       {title:'Contact',imgUrl:'dark/contact.png', href:'/contact'},
     ]

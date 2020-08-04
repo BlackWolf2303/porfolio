@@ -1,5 +1,5 @@
 
-const PorforlioItem = (props) => {
+const PortfolioItem = (props) => {
   const {project,img, detail, responsibility} = props;
   return (
     <div className="col-md-6">
@@ -25,4 +25,4 @@ const PorforlioItem = (props) => {
   );
 };
 
-export default PorforlioItem;
+export default PortfolioItem;

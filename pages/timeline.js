@@ -18,7 +18,7 @@ const Timeline = () => {
             <div style={{clear:'both'}}></div>
           </ul>
         </div>
-          <Link href="/porfolio">
+          <Link href="/portfolio">
             <button className="continue-button" >Continue to my Porfolio</button>
           </Link>
       </section>
