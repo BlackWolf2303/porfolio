@@ -12,7 +12,8 @@ const Index = () => (
                 <div className="col-md-2 align-self-center">
                   <div className="avatar">
                     <img
-                    className="avatar-img img-fluid"
+                      className="avatar-img img-fluid"
+                      loading="lazy"
                       src="/static/avatar.jpg"
                       alt="Avatar"
                     />

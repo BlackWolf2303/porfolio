@@ -7,7 +7,7 @@ const PhotoSlide = (props) => {
       img ?
         <div className="card">
           <figure>
-            <img className="card-img-top img-fluid" src={`/static/photos/${img}`} alt="Card image cap"/>
+            <img className="card-img-top img-fluid" loading="lazy" src={`/static/photos/${img}`} alt="Card image cap"/>
           </figure>
           <div className="card-body">
             <h6>{caption}</h6>
