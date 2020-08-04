@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { initGA, logPageView } from "../../components/GoogleAnalytics.js"
 
 import Navbar from '../../components/Navbar';
 import "../../styles/styles.scss";
@@ -17,6 +18,14 @@ class Layout extends Component {
     this.setState({
       isActive: !this.state.isActive
     })
+  }
+
+  componentDidMount () {
+    if (!window.GA_INITIALIZED) {
+      initGA();
+      window.GA_INITIALIZED = true;
+    }
+    logPageView();
   }
 
   render() { 
