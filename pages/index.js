@@ -13,7 +13,6 @@ const Index = () => (
                   <div className="avatar">
                     <img
                       className="avatar-img img-fluid"
-                      loading="lazy"
                       src="/static/avatar.jpg"
                       alt="Avatar"
                     />

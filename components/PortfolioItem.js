@@ -7,7 +7,7 @@ const PortfolioItem = (props) => {
       img ?
         <div className="card">
           <figure>
-            <img className="card-img-top img-fluid" loading="lazy" src={`/static/project/${img}`} alt="Card image cap"/>
+            <img className="card-img-top img-fluid" src={`/static/project/${img}`} alt="Card image cap"/>
           </figure>
           <div className="card-body">
             <h6>{project}</h6>

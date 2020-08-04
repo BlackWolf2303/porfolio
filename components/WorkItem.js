@@ -11,7 +11,7 @@ const WorkItem = (props) => {
             return (
             <div className="col-4 col-md-2" key={idx}>
               <div className="lang-item">
-                <img className="img-fluid lang-img" loading="lazy" src={`/static/languages/${item.image}`}></img>
+                <img className="img-fluid lang-img" src={`/static/languages/${item.image}`}></img>
                 <div className="desc">{item.name}</div>
               </div>
             </div>
