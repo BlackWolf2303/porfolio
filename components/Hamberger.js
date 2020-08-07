@@ -37,8 +37,8 @@ class Hamberger extends Component {
       });
     }
     console.log("Hi, there!");
-    console.log("If you're in here, sure that only because 2 things: want to hack me or find something about me.");
-    console.log("Feel free to do research about, just pls don't hack me. I'm just a poor-FE-guy :((");
+    console.log("If you're in here, sure that only because 2 things: find something about me or want to hack me.");
+    console.log("Feel free to do research about me, pls don't hack me. I'm just a poor-FE-guy :((");
     
   }
 
