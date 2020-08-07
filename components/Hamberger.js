@@ -20,12 +20,10 @@ class Hamberger extends Component {
         let scrollTop = window.scrollY;
         switch(true) {
           case (scrollTop >70):
-            console.log('100 dowwwwwww');
             intro.classList.add('sub-intro');
             break;
 
           case(scrollTop <=70):
-            console.log('100 uppppp');
             intro.classList.remove('sub-intro');
             break;
 
@@ -38,6 +36,10 @@ class Hamberger extends Component {
         lastScrollTop = scrollTop;
       });
     }
+    console.log("Hi, there!");
+    console.log("If you're in here, sure that only because 2 things: want to hack me or find something about me.");
+    console.log("Feel free to do research about, just pls don't hack me. I'm just a poor-FE-guy :((");
+    
   }
 
 
