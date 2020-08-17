@@ -61,7 +61,7 @@ class Hamberger extends Component {
       </button>
       <div className="intro">
         <h1 className="intro-name">HO THANH HAI</h1>
-        <p>MID-LEVEL FRONT END DEVELOPER</p>
+        <p>FRONT END DEVELOPER</p>
         <p className="exp-year">have been programming for 2 years</p>
       </div>
     </div>
