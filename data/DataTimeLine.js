@@ -66,6 +66,11 @@ export const dataWorkItem = [
 
 export const dataTimeLine = [
   {
+    work:"Started working as Frontend engineer at Opswat",
+    detail:"",
+    time:"Sep. 2020"
+    },
+  {
   work:"Left IT Consultis to seeking new journey",
   detail:"Stop the journey at IT Consultis - my first company after 2 years working and looking for new challenges",
   time:"Aug. 2020"

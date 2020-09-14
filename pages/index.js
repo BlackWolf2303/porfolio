@@ -13,7 +13,7 @@ const Index = () => (
                   <div className="avatar">
                     <img
                       className="avatar-img img-fluid"
-                      src="/static/avatar.jpg"
+                      src="/static/avatar1.jpg"
                       alt="Avatar"
                     />
                     <div className="name">Hai, Ho Thanh</div>
