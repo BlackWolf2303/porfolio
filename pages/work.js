@@ -11,7 +11,7 @@ const Work = () => {
         <div className="work-desc-wrapper">
           <div className="row">
             <div className="col-md-12">
-              <p className="desc">In 2 years, I have been programming the projects from the Europe and Asia marketplaces, understand how they work. I like to code things from the designs, or even from the sketches, wireframes where I enjoy bringing ideas to life in the browser. Have been enjoyed the multicultural team together, with so nice colleagues from many countries helped me upgrade skills, and understand how different working styles which will help me the next journey.<br/><br/>
+              <p className="desc">In few years, I have been programming the projects from the Europe and Asia marketplaces, understand how they work. I like to code things from the designs, or even from the sketches, wireframes where I enjoy bringing ideas to life in the browser. Have been enjoyed the multicultural team together, with so nice colleagues from many countries helped me upgrade skills, and understand how different working styles which will help me the next journey.<br/><br/>
               If you ask me do I have any awards? or achievements? or be a competition winner before? I would say I have nothing for now. 
               The big achievement of mine is when I look back every single day at night, learn from my own mistakes, and see myself be better 1% every day.
               </p>
