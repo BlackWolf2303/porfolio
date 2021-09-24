@@ -20,7 +20,7 @@ const Index = () => (
                   </div>
                 </div>
                 <div className="col-md-10 px-0 px-sm-3 desc">
-                  <p>Hi, I'm Hai!</p>
+                  <p>Hi, I'm Hai! You can call me Harry.</p>
                   <p>I'm a front end developer based in Saigon, VN.</p><br/>
 
                   <p>Intrigued by the technology, coding, learning, gaming, traveling, fabulous food, music and the minimalism.</p>
